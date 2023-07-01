@@ -1,0 +1,56 @@
+body {
+  background-color: #073d4f;
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 170px;
+  height: 180px;
+}
+
+nav {
+  width: 100vw;
+  overflow: scroll;
+  display: flex;
+  background-color: #cf5137;
+}
+
+.products {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+  height: 380px;
+}
+
+@media only screen and (max-width: 1439px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

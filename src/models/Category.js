@@ -1,6 +1,8 @@
 class Category {
-    constructor(name, products) {
-        this.name = name
-        this.products = products
-    }
+  constructor(name, products) {
+    this.name = name;
+    this.products = products;
+  }
 }
+
+export default Category;

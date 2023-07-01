@@ -1,0 +1,27 @@
+.category-container-selected {
+  min-width: 120px;
+  background-color: #f6eedc;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.category-container-selected h4 {
+  width: 100%;
+  text-align: center;
+  color: #cf5137;
+  font-weight: bold;
+}
+
+.category-container {
+  min-width: 120px;
+  background-color: #cf5137;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.category-container h4 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
