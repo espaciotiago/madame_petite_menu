@@ -31,6 +31,9 @@ function App() {
               key={category.name}
               category={category}
               selected={isCategorySelected(category)}
+              categorySelected={() => {
+                setSelectedCategory(category);
+              }}
             />
           ))}
         </nav>

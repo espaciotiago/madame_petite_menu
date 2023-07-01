@@ -1,8 +1,9 @@
 import "./index.css";
 
-function NavCategoryView({ category, selected }) {
+function NavCategoryView({ category, selected, categorySelected }) {
   return (
     <div
+      onClick={categorySelected}
       className={
         selected ? "category-container-selected" : "category-container"
       }
