@@ -1,0 +1,34 @@
+{
+    "categories": [
+        {
+            "name": "Recomendados",
+            "products": [
+                {
+                    "name": "Carpaccio Napoleón",
+                    "label": "Salmón",
+                    "description": "Láminas de salmón marinadas con sal rosada del himalaya.",
+                    "images": [
+                        "../assets/Comida/Carpaccio salmon 1.jpg",
+                        "../assets/Comida/Carpaccio salmon.jpg"
+                    ],
+                    "price": 30000
+                }
+            ]
+        },
+        {
+            "name": "Recomendados",
+            "products": [
+                {
+                    "name": "Carpaccio Napoleón",
+                    "label": "Salmón",
+                    "description": "Láminas de salmón marinadas con sal rosada del himalaya.",
+                    "images": [
+                        "../assets/Comida/Carpaccio salmon 1.jpg",
+                        "../assets/Comida/Carpaccio salmon.jpg"
+                    ],
+                    "price": 30000
+                }
+            ]
+        }
+    ]
+}
