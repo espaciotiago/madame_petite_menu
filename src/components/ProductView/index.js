@@ -10,7 +10,7 @@ function ProductView({ product }) {
             alt="product-img"
             className="first-image"
           />
-          <p>{product.description}</p>
+          <p>{product.summary}</p>
           <div className="price">
             <p>$ {product.price}</p>
           </div>
@@ -43,7 +43,7 @@ function ProductView({ product }) {
             <p className="label">{product.label}</p>
             <h3>{product.name}</h3>
           </div>
-          <p>{product.description}</p>
+          <p>{product.summary}</p>
           <div className="price-r">
             <p>$ {product.price}</p>
           </div>
@@ -56,7 +56,7 @@ function ProductView({ product }) {
         <div>
           <p className="label">{product.label}</p>
           <h3>{product.name}</h3>
-          <p>{product.description}</p>
+          <p>{product.summary}</p>
           <div className="price">
             <p>$ {product.price}</p>
           </div>

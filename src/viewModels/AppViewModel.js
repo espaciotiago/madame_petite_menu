@@ -10,6 +10,7 @@ class AppViewModel {
           new Product(
             prod.name,
             prod.label,
+            prod.summary,
             prod.description,
             prod.images,
             prod.price
