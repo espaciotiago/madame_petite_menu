@@ -1,0 +1,68 @@
+.dialog-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #073d4f;
+  transition: 1s;
+  left: 0;
+}
+
+.product-description-container {
+  height: 99%;
+  width: 99%;
+  background-color: #0f4573;
+  padding: 16px;
+}
+
+.product-description-container h3,
+p {
+  color: #f6eedc;
+  margin: 0;
+}
+
+.product-description-container .description {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.price-complete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cf5137;
+  padding: 8px;
+  margin: 0;
+}
+
+.nav-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-actions p {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.images-container {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.image-half {
+  width: 50%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.image-complete {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}

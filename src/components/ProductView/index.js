@@ -1,9 +1,9 @@
 import "./index.css";
 
-function ProductView({ product }) {
+function ProductView({ product, productSelected }) {
   if (product.images.length > 1) {
     return (
-      <div className="product-container">
+      <div className="product-container" onClick={productSelected}>
         <div>
           <img
             src={product.images[0]}
@@ -30,7 +30,7 @@ function ProductView({ product }) {
     );
   } else if (product.images.length > 0) {
     return (
-      <div className="product-container">
+      <div className="product-container" onClick={productSelected}>
         <div>
           <img
             src={product.images[0]}
@@ -52,7 +52,10 @@ function ProductView({ product }) {
     );
   } else {
     return (
-      <div className="product-container single-columns">
+      <div
+        className="product-container single-columns"
+        onClick={productSelected}
+      >
         <div>
           <p className="label">{product.label}</p>
           <h3>{product.name}</h3>

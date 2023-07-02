@@ -3,11 +3,13 @@ import { useEffect, useState } from "react";
 import AppViewModel from "../viewModels/AppViewModel";
 import NavCategoryView from "../components/NavCategoryView";
 import ProductView from "../components/ProductView";
+import ProductDescriptionView from "../components/ProductDescriptionView";
 import logo from "../assets/logo.png";
 
 function App() {
   const [categories, setCategories] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
   useEffect(() => {
     const categories = AppViewModel.getProducts();
@@ -42,9 +44,25 @@ function App() {
       <section className="products">
         {selectedCategory &&
           selectedCategory.products.map((product) => (
-            <ProductView key={product.name} product={product} />
+            <ProductView
+              key={product.name}
+              product={product}
+              productSelected={() => {
+                console.log(product);
+                setSelectedProduct(product);
+              }}
+            />
           ))}
       </section>
+
+      {selectedProduct && (
+        <ProductDescriptionView
+          product={selectedProduct}
+          close={() => {
+            setSelectedProduct(null);
+          }}
+        />
+      )}
     </div>
   );
 }
