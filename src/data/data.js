@@ -8,18 +8,7 @@ const data = {
           label: "Salmón",
           description:
             "Láminas de salmón marinadas con sal rosada del himalaya.",
-          images: [
-            "../assets/Comida/Carpaccio salmon 1.jpg",
-            "../assets/Comida/Carpaccio salmon.jpg",
-          ],
-          price: 30000,
-        },
-        {
-          name: "Carpaccio Bonaparte",
-          label: "Salmón",
-          description:
-            "Láminas de salmón marinadas con sal rosada del himalaya.",
-          images: ["../assets/Comida/Carpaccio salmon 1.jpg"],
+          images: [],
           price: 30000,
         },
         {
@@ -70,7 +59,26 @@ const data = {
             "../assets/Comida/Carpaccio salmon.jpg",
           ],
           price: 30000,
-        }
+        },
+        {
+          name: "Carpaccio Bonaparte",
+          label: "Salmón",
+          description:
+            "Láminas de salmón marinadas con sal rosada del himalaya.",
+          images: ["../assets/Comida/Carpaccio salmon 1.jpg"],
+          price: 30000,
+        },
+        {
+          name: "Carpaccio Napoleón",
+          label: "Salmón",
+          description:
+            "Láminas de salmón marinadas con sal rosada del himalaya.",
+          images: [
+            "../assets/Comida/Carpaccio salmon 1.jpg",
+            "../assets/Comida/Carpaccio salmon.jpg",
+          ],
+          price: 30000,
+        },
       ],
     },
     {

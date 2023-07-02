@@ -1,7 +1,6 @@
 import "./index.css";
 
 function ProductView({ product }) {
-  console.log(product);
   if (product.images.length > 1) {
     return (
       <div className="product-container">
@@ -52,7 +51,18 @@ function ProductView({ product }) {
       </div>
     );
   } else {
-    return <p>{product.name}</p>;
+    return (
+      <div className="product-container single-columns">
+        <div>
+          <p className="label">{product.label}</p>
+          <h3>{product.name}</h3>
+          <p>{product.description}</p>
+          <div className="price">
+            <p>$ {product.price}</p>
+          </div>
+        </div>
+      </div>
+    );
   }
 }
 

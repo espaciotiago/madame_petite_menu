@@ -9,6 +9,10 @@
   cursor: pointer;
 }
 
+.single-columns {
+  grid-template-columns: repeat(1, 1fr) !important;
+}
+
 .product-container .first-image {
   width: 100%;
   object-fit: cover;
