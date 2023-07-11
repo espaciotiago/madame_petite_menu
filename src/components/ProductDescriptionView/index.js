@@ -24,7 +24,7 @@ function ProductDescription({ product, close }) {
           ))}
         </div>
         <div>
-          <p>{product.label}</p>
+          <p className="label">{product.label}</p>
           <h3>{product.name}</h3>
           <p className="description">{product.description}</p>
         </div>
