@@ -115,8 +115,117 @@ const data = {
       ],
     },
     {
-      name: "Repostería",
-      products: [],
+      name: "Reposteria",
+      products: [
+        {
+          name: "Macaron",
+          label: "Dulce",
+          summary:
+            "Una delicada gema culinaria que fusiona texturas suaves y sabores exquisitos.",
+          description: `Una delicada gema culinaria que fusiona texturas suaves y sabores exquisitos. Estas joyas de la repostería, con sus colores vibrantes y presentación elegante, te transportarán a un mundo de placer y sofisticación. Sumérgete en la armonía de sus capas crujientes y su relleno irresistible, y déjate seducir por la dulce magia de cada bocado. Descubre la excelencia de la repostería francesa en cada Macaron. Una experiencia única que cautivará tus sentidos y te dejará con ganas de más.`,
+          images: [
+            "../assets/Reposteria/macaron.png",
+            "../assets/Reposteria/macaron 1.png",
+          ],
+          price: 6600,
+        },
+        {
+          name: "Bun de avellana",
+          label: "Dulce",
+          summary:
+            "Cada mordisco es un deleite irresistible, donde la esponjosidad se funde con el toque crujiente de las avellanas tostadas.",
+          description: `Embárcate en un viaje de sabor celestial con nuestro bun de avellana. Cada mordisco es un deleite irresistible, donde la esponjosidad se funde con el toque crujiente de las avellanas tostadas. El aroma cautivador envuelve tus sentidos mientras te adentras en un mundo de sabores exquisitos y sofisticados. Sumérgete en la dulzura indulgente de este bun, donde la avellana se convierte en la estrella principal. Prepárate para una experiencia gustativa inolvidable que te transportará a una dimensión de placer y satisfacción absoluta. ¡Déjate seducir por la magia de nuestro bun de avellana y descubre el verdadero gusto de la perfección!`,
+          images: [
+            "../assets/Reposteria/bun.png",
+            "../assets/Reposteria/bun 1.png",
+          ],
+          price: 4200,
+        },
+        {
+          name: "Bun de manjar blanco",
+          label: "Dulce",
+          summary:
+            "Sumérgete en el deleite más exquisito con nuestro irresistible bun de manjar blanco caleño.",
+          description: `Embárcate en un viaje de sabor celestial con nuestro bun de manjar blanco. Cada mordisco es un deleite irresistible, donde la esponjosidad se funde con el toque crujiente de las avellanas tostadas. El aroma cautivador envuelve tus sentidos mientras te adentras en un mundo de sabores exquisitos y sofisticados. Sumérgete en la dulzura indulgente de este bun, donde la avellana se convierte en la estrella principal. Prepárate para una experiencia gustativa inolvidable que te transportará a una dimensión de placer y satisfacción absoluta. ¡Déjate seducir por la magia de nuestro bun y descubre el verdadero gusto de la perfección!`,
+          images: [
+            "../assets/Reposteria/bun.png",
+            "../assets/Reposteria/bun 1.png",
+          ],
+          price: 4200,
+        },
+        {
+          name: "Rollo de canela",
+          label: "Dulce",
+          summary:
+            "Masa recién horneada se combina con el aroma embriagador de la canela, creando una explosión de sabor en tu paladar.",
+          description: `Descubre el placer supremo en cada bocado con nuestro irresistible rollo de canela. La frescura de la masa recién horneada se combina con el aroma embriagador de la canela, creando una explosión de sabor en tu paladar. Cada capa suave y esponjosa se deshace en tu boca, liberando la dulzura tentadora de la canela y el azúcar caramelizado. Déjate seducir por la textura delicada y la perfecta combinación de sabores, mientras te envuelves en una experiencia de puro deleite. Este rollo de canela es el capricho que no podrás resistir, una obra maestra culinaria que te transportará al paraíso de los sabores. ¡Permite que este dulce placer conquiste tus sentidos y te brinde un momento de absoluta felicidad!`,
+          images: [
+            "../assets/Reposteria/rollo canela.png",
+            "../assets/Reposteria/rollo canela 1.png",
+          ],
+          price: 8000,
+        },
+        {
+          name: "Croissant de mantequilla",
+          label: "De la casa",
+          summary:
+            "Desde el primer bocado, sentirás cómo se deshace en tu boca, revelando su interior suave y mantecoso.",
+          description: `Embárcate en un viaje a la auténtica pastelería francesa con nuestro croissant artesanal. Con su textura delicada y hojaldrada, cada mordisco es una experiencia que te transportará a las calles de París. Su aroma seductor te envolverá mientras descubres la perfección dorada y crujiente en cada capa. Desde el primer bocado, sentirás cómo se deshace en tu boca, revelando su interior suave y mantecoso. Deleita tus sentidos con este clásico irresistible, acompañado de un café recién hecho. Nuestro croissant es la verdadera esencia del sabor francés, un símbolo de exquisitez que te cautivará desde el primer momento. ¡Permítete disfrutar de este tesoro culinario y descubre la magia de un auténtico croissant!`,
+          images: [
+            "../assets/Reposteria/croissant.png",
+            "../assets/Reposteria/croissant 1.png",
+          ],
+          price: 6000,
+        },
+        {
+          name: "Tartaleta de chocolate",
+          label: "De la casa",
+          summary:
+            "El chocolate oscuro y seductor se derrite en tu boca, liberando su sabor profundo y sofisticado. Nuestro relleno de chocolate es una sinfonía de sabores intensos y suavidad irresistible.",
+          description: `Prepárate para sumergirte en una experiencia de chocolate divina con nuestra tartaleta artesanal de chocolate. Cada bocado es un encuentro con la perfección, donde el cacao de alta calidad se combina con una masa crujiente y delicada. Utilizamos los ingredientes más selectos para crear una experiencia indulgente y única. El chocolate oscuro y seductor se derrite en tu boca, liberando su sabor profundo y sofisticado. Nuestro relleno de chocolate es una sinfonía de sabores intensos y suavidad irresistible. Cada tartaleta es cuidadosamente preparada por nuestros expertos pasteleros, quienes emplean su habilidad y pasión para garantizar un resultado sublime. Desde la selección de los mejores granos de cacao hasta la meticulosa elaboración, cada paso se realiza con amor y dedicación para ofrecerte una tartaleta que te hará sucumbir al placer del chocolate. Sumérgete en esta delicia tentadora y descubre la magia de la tartaleta de chocolate que despierta todos tus sentidos.`,
+          images: [
+            "../assets/Reposteria/tartaleta chocolate.png",
+            "../assets/Reposteria/tartaleta chocolate 1.png",
+          ],
+          price: 20000,
+        },
+        {
+          name: "Mini tartaleta de chocolate",
+          label: "De la casa",
+          summary:
+            "El chocolate oscuro y seductor se derrite en tu boca, liberando su sabor profundo y sofisticado. Nuestro relleno de chocolate es una sinfonía de sabores intensos y suavidad irresistible.",
+          description: `Prepárate para sumergirte en una experiencia de chocolate divina con nuestra tartaleta artesanal de chocolate. Cada bocado es un encuentro con la perfección, donde el cacao de alta calidad se combina con una masa crujiente y delicada. Utilizamos los ingredientes más selectos para crear una experiencia indulgente y única. El chocolate oscuro y seductor se derrite en tu boca, liberando su sabor profundo y sofisticado. Nuestro relleno de chocolate es una sinfonía de sabores intensos y suavidad irresistible. Cada tartaleta es cuidadosamente preparada por nuestros expertos pasteleros, quienes emplean su habilidad y pasión para garantizar un resultado sublime. Desde la selección de los mejores granos de cacao hasta la meticulosa elaboración, cada paso se realiza con amor y dedicación para ofrecerte una tartaleta que te hará sucumbir al placer del chocolate. Sumérgete en esta delicia tentadora y descubre la magia de la tartaleta de chocolate que despierta todos tus sentidos.`,
+          images: [
+            "../assets/Reposteria/tartaleta chocolate.png",
+            "../assets/Reposteria/tartaleta chocolate 1.png",
+          ],
+          price: 5000,
+        },
+        {
+          name: "Tartaleta de limón",
+          label: "De la casa",
+          summary:
+            "Nuestra masa crujiente se fusiona perfectamente con el relleno de limón, una combinación equilibrada entre lo dulce y lo ácido.",
+          description: `Cada bocado es una explosión de sabor cítrico y refrescante que te transportará a un jardín de limoneros en plena floración. Utilizamos los limones más jugosos y suculentos para garantizar un sabor auténtico y vibrante en cada tartaleta. Nuestra masa crujiente se fusiona perfectamente con el relleno de limón, una combinación equilibrada entre lo dulce y lo ácido. Cada tartaleta es preparada con dedicación y cuidado, utilizando técnicas artesanales que resaltan la frescura y la intensidad del limón. Disfruta de la experiencia de saborear esta delicia ligera y refrescante, perfecta para los amantes de los sabores cítricos. Deleita tus sentidos con una tartaleta de limón que despierta el paladar y te transporta a un mundo lleno de frescura y alegría. ¡Permítete disfrutar de esta maravillosa combinación de sabores en cada bocado de nuestra tartaleta de limón!`,
+          images: [
+            "../assets/Reposteria/tartaleta limon.png",
+            "../assets/Reposteria/tartaleta limon 1.png",
+          ],
+          price: 20000,
+        },
+        {
+          name: "Mini tartaleta de limón",
+          label: "De la casa",
+          summary:
+            "Nuestra masa crujiente se fusiona perfectamente con el relleno de limón, una combinación equilibrada entre lo dulce y lo ácido. ",
+          description: `Cada bocado es una explosión de sabor cítrico y refrescante que te transportará a un jardín de limoneros en plena floración. Utilizamos los limones más jugosos y suculentos para garantizar un sabor auténtico y vibrante en cada tartaleta. Nuestra masa crujiente se fusiona perfectamente con el relleno de limón, una combinación equilibrada entre lo dulce y lo ácido. Cada tartaleta es preparada con dedicación y cuidado, utilizando técnicas artesanales que resaltan la frescura y la intensidad del limón. Disfruta de la experiencia de saborear esta delicia ligera y refrescante, perfecta para los amantes de los sabores cítricos. Deleita tus sentidos con una tartaleta de limón que despierta el paladar y te transporta a un mundo lleno de frescura y alegría. ¡Permítete disfrutar de esta maravillosa combinación de sabores en cada bocado de nuestra tartaleta de limón!`,
+          images: [
+            "../assets/Reposteria/tartaleta limon.png",
+            "../assets/Reposteria/tartaleta limon 1.png",
+          ],
+          price: 5000,
+        },
+      ],
     },
     {
       name: "Café",
