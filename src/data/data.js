@@ -234,100 +234,109 @@ const data = {
           name: "Espresso",
           label: "Café especial",
           summary:
-            "",
-          description: ``,
-          images: [
-            "../assets/Cafe/espresso.png",
-          ],
+            "Este pequeño pero impactante elixir es la esencia misma del café concentrado y de sabor intenso.",
+          description: `Este pequeño pero impactante elixir es la esencia misma del café concentrado y de sabor intenso. Cada sorbo es una explosión de energía y placer, con notas de cacao, frutas y especias que bailan en tu paladar.`,
+          images: ["../assets/Cafe/espresso.png"],
           price: 4000,
         },
         {
           name: "Americano",
           label: "Café especial",
           summary:
-            "",
-          description: ``,
-          images: [
-            "../assets/Cafe/espresso.png",
-          ],
+            "El espresso americano es una obra maestra que combina la intensidad concentrada del espresso con una suave y refrescante infusión de agua caliente.",
+          description: `El espresso americano es una obra maestra que combina la intensidad concentrada del espresso con una suave y refrescante infusión de agua caliente. Cada sorbo es una experiencia equilibrada, donde el sabor rico y profundo del espresso se despliega en una cascada de sabores sutiles y seductores.`,
+          images: ["../assets/Cafe/espresso.png"],
           price: 5000,
         },
         {
           name: "Café Latte",
           label: "Café especial",
           summary:
-            "",
-          description: ``,
-          images: [
-            "../assets/Cafe/capuccino.png",
-          ],
+            "El café latte es una danza perfecta entre el café y la leche, donde cada ingrediente se entrelaza para crear una experiencia exquisita y reconfortante.",
+          description: `El café latte es una danza perfecta entre el café y la leche, donde cada ingrediente se entrelaza para crear una experiencia exquisita y reconfortante. Disfruta de la combinación equilibrada entre el amargor del café y la dulzura suave de la leche, envuelta en una taza cálida que te brinda un momento de puro deleite.`,
+          images: ["../assets/Cafe/capuccino.png"],
           price: 6500,
         },
         {
           name: "Capuccino",
           label: "Café especial",
           summary:
-            "",
-          description: ``,
-          images: [
-            "../assets/Cafe/capuccino.png",
-          ],
+            "Este deleite italiano combina la intensidad del espresso con la suavidad seductora de la leche y la delicadeza de la espuma",
+          description: `Este deleite italiano combina la intensidad del espresso con la suavidad seductora de la leche y la delicadeza de la espuma. Cada sorbo es un encuentro con la elegancia, donde los sabores se entrelazan en un equilibrio inigualable. Deleita tus sentidos con la rica profundidad del café, acariciada por la dulzura cremosa de la leche y coronada por una espuma ligera y esponjosa.`,
+          images: ["../assets/Cafe/capuccino.png"],
           price: 7500,
         },
         {
           name: "Mocaccino",
           label: "Café especial",
           summary:
-            "",
-          description: ``,
-          images: [
-            "../assets/Cafe/capuccino.png",
-          ],
+            "Sumérgete en un mundo de placer donde el café, el chocolate y la leche se entrelazan en una sinfonía de sabores que te envolverán en un abrazo reconfortante.",
+          description: `Sumérgete en un mundo de placer donde el café, el chocolate y la leche se entrelazan en una sinfonía de sabores que te envolverán en un abrazo reconfortante. El mocaccino es el deleite para los amantes del chocolate y el café, una experiencia que te brinda un momento de pura indulgencia. `,
+          images: ["../assets/Cafe/capuccino.png"],
           price: 9000,
         },
         {
           name: "Macciato",
           label: "Café especial",
           summary:
-            "",
-          description: ``,
-          images: [
-            "../assets/Cafe/capuccino.png",
-          ],
+            "Este pequeño y poderoso elixir combina la audacia del espresso con una mancha de leche vaporizada, creando un equilibrio perfecto entre lo fuerte y lo suave.",
+          description: `Este pequeño y poderoso elixir combina la audacia del espresso con una mancha de leche vaporizada, creando un equilibrio perfecto entre lo fuerte y lo suave. Cada sorbo es una explosión de sabor concentrado que despierta tus sentidos y te impulsa hacia adelante. El macchiato es el compañero ideal para aquellos que buscan un impulso rápido y una experiencia de café audaz.`,
+          images: ["../assets/Cafe/capuccino.png"],
           price: 5000,
         },
         {
           name: "Capuccino Irlandes",
-          label: "Café especial",
+          label: "Con licor",
           summary:
-            "",
-          description: ``,
-          images: [
-            "../assets/Cafe/capuccino.png",
-          ],
+            "Este deleite fusiona la suavidad del capuccino clásico con la calidez reconfortante del whisky irlandés.",
+          description: `Este deleite fusiona la suavidad del capuccino clásico con la calidez reconfortante del whisky irlandés. Cada sorbo es una experiencia que te transportará a las verdes tierras de Irlanda, donde la tradición y el sabor se unen en perfecta armonía.`,
+          images: ["../assets/Cafe/capuccino.png"],
           price: 12000,
         },
         {
           name: "Frappé de café",
           label: "Café especial",
           summary:
-            "",
-          description: ``,
-          images: [
-            "../assets/Cafe/frappe.png",
-          ],
+            "Refresca tus sentidos con nuestro frappé de café, una explosión de sabor y frescura en cada sorbo.",
+          description: `Refresca tus sentidos con nuestro frappé de café, una explosión de sabor y frescura en cada sorbo. Este elixir helado combina la intensidad del café con el toque dulce y refrescante de hielo triturado, creando una experiencia que te transporta a un paraíso veraniego. Cada sorbo es una aventura de texturas, donde la suavidad seductora del café se entrelaza con la frescura del hielo, envolviendo tu paladar en una sinfonía de sabores deliciosos.`,
+          images: ["../assets/Cafe/frappe.png"],
           price: 12000,
         },
         {
           name: "Frappé de café con maracuyá",
           label: "Café especial",
           summary:
-            "",
-          description: ``,
-          images: [
-            "../assets/Cafe/frappe.png",
-          ],
+            "Este deleite helado fusiona la intensidad del café con la exótica frescura del maracuyá, creando una explosión de sabores en cada sorbo.",
+          description: `Este deleite helado fusiona la intensidad del café con la exótica frescura del maracuyá, creando una explosión de sabores en cada sorbo. El café se mezcla armoniosamente con la dulzura tropical y el toque cítrico del maracuyá, transportándote a playas paradisíacas con cada sorbo refrescante.`,
+          images: ["../assets/Cafe/frappe.png"],
           price: 14000,
+        },
+        {
+          name: "Chemex x3 tazas",
+          label: "Método de café",
+          summary:
+            "Cada goteo de agua caliente a través del filtro de alta calidad revela los sabores más sutiles y complejos de los granos de café, brindándote una experiencia de degustación excepcional.",
+          description: `Cada goteo de agua caliente a través del filtro de alta calidad revela los sabores más sutiles y complejos de los granos de café, brindándote una experiencia de degustación excepcional. Disfruta de la nitidez y la suavidad de cada sorbo mientras te sumerges en un universo de aromas cautivadores. La Chemex es el secreto mejor guardado de los amantes del café, una obra maestra que te transporta a un mundo de sabor y refinamiento.`,
+          images: ["../assets/Cafe/chemex.png"],
+          price: 15000,
+        },
+        {
+          name: "Prensa francesa x3 tazas",
+          label: "Método de café",
+          summary:
+            "Esta elegante y poderosa herramienta transforma tu rutina matutina en un ritual de sabores y aromas intensos.",
+          description: `Esta elegante y poderosa herramienta transforma tu rutina matutina en un ritual de sabores y aromas intensos. Cada prensado cuidadoso libera los aceites esenciales y los sabores robustos de los granos de café, creando una taza llena de carácter y cuerpo.`,
+          images: ["../assets/Cafe/prensa.png"],
+          price: 15000,
+        },
+        {
+          name: "V60 x3 tazas",
+          label: "Método de café",
+          summary:
+            "Cada grano de café se sumerge en agua caliente, goteando a través del filtro en forma de V, liberando una explosión de sabores sutiles y complejos.",
+          description: `Esta sofisticada cafetera de cono te transporta a un mundo de sabores refinados y extracciones precisas. Cada grano de café se sumerge en agua caliente, goteando a través del filtro en forma de V, liberando una explosión de sabores sutiles y complejos. Disfruta de la claridad y la transparencia en cada sorbo, mientras te deleitas con la taza perfectamente equilibrada. La V60 es el secreto de los conocedores del café, una herramienta que destaca la singularidad de cada grano y permite una experiencia de degustación única.`,
+          images: ["../assets/Cafe/v60.png"],
+          price: 15000,
         },
       ],
     },
@@ -488,8 +497,26 @@ const data = {
           label: "Refrescante",
           summary: "Bebida refrescante a base de naranja, frutos rojos y soda.",
           description: `Bebida refrescante a base de frutos rojos, zumo de limón y soda.`,
-          images: ["../assets/Refrescantes/Soda naranja.jpg",],
+          images: ["../assets/Refrescantes/Soda naranja.jpg"],
           price: 13000,
+        },
+        {
+          name: "Frappé de café",
+          label: "Café especial",
+          summary:
+            "Refresca tus sentidos con nuestro frappé de café, una explosión de sabor y frescura en cada sorbo.",
+          description: `Refresca tus sentidos con nuestro frappé de café, una explosión de sabor y frescura en cada sorbo. Este elixir helado combina la intensidad del café con el toque dulce y refrescante de hielo triturado, creando una experiencia que te transporta a un paraíso veraniego. Cada sorbo es una aventura de texturas, donde la suavidad seductora del café se entrelaza con la frescura del hielo, envolviendo tu paladar en una sinfonía de sabores deliciosos.`,
+          images: ["../assets/Cafe/frappe.png"],
+          price: 12000,
+        },
+        {
+          name: "Frappé de café con maracuyá",
+          label: "Café especial",
+          summary:
+            "Este deleite helado fusiona la intensidad del café con la exótica frescura del maracuyá, creando una explosión de sabores en cada sorbo.",
+          description: `Este deleite helado fusiona la intensidad del café con la exótica frescura del maracuyá, creando una explosión de sabores en cada sorbo. El café se mezcla armoniosamente con la dulzura tropical y el toque cítrico del maracuyá, transportándote a playas paradisíacas con cada sorbo refrescante.`,
+          images: ["../assets/Cafe/frappe.png"],
+          price: 14000,
         },
         {
           name: "Cerveza Corona",
@@ -545,7 +572,11 @@ const data = {
       ],
     },
     {
-      name: "Vinos y tragos",
+      name: "Tragos",
+      products: [],
+    },
+    {
+      name: "Vinos",
       products: [],
     },
   ],

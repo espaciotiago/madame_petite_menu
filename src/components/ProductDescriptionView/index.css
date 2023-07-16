@@ -44,12 +44,13 @@ p {
 .nav-actions {
   display: flex;
   justify-content: flex-end;
+  padding: 16px 0;
 }
 
-.nav-actions p {
+.nav-actions img {
   cursor: pointer;
-  font-weight: bold;
-  padding: 8px;
+  width: 32px;
+  height: 32px;
 }
 
 .images-container {

@@ -1,4 +1,5 @@
 import "./index.css";
+import closeIcon from "../../assets/close.png";
 
 function ProductDescription({ product, close }) {
   const calculateImageClass = () => {
@@ -12,7 +13,7 @@ function ProductDescription({ product, close }) {
     <div className="dialog-container slide-in">
       <div className="product-description-container">
         <div className="nav-actions">
-          <p onClick={close}>X</p>
+          <img src={closeIcon} alt="cerrar" onClick={close} />
         </div>
         <div className="images-container">
           {product.images.map((image) => (

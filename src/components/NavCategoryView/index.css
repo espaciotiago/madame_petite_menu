@@ -1,5 +1,5 @@
 .category-container-selected {
-  min-width: 120px;
+  min-width: 140px;
   background-color: #f6eedc;
   padding: 8px 16px;
   cursor: pointer;
@@ -10,10 +10,11 @@
   text-align: center;
   color: #cf5137;
   font-weight: bold;
+  margin: 4px;
 }
 
 .category-container {
-  min-width: 120px;
+  min-width: 140px;
   background-color: #cf5137;
   padding: 8px 16px;
   cursor: pointer;
@@ -24,4 +25,5 @@
   text-align: center;
   color: white;
   font-weight: 400;
+  margin: 4px;
 }
