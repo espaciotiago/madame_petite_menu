@@ -17,6 +17,8 @@
   width: 99%;
   background-color: #0f4573;
   padding: 16px;
+  padding-bottom: 32px;
+  overflow: scroll;
 }
 
 .product-description-container h3,

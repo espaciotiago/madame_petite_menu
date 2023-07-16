@@ -229,7 +229,107 @@ const data = {
     },
     {
       name: "Café",
-      products: [],
+      products: [
+        {
+          name: "Espresso",
+          label: "Café especial",
+          summary:
+            "",
+          description: ``,
+          images: [
+            "../assets/Cafe/espresso.png",
+          ],
+          price: 4000,
+        },
+        {
+          name: "Americano",
+          label: "Café especial",
+          summary:
+            "",
+          description: ``,
+          images: [
+            "../assets/Cafe/espresso.png",
+          ],
+          price: 5000,
+        },
+        {
+          name: "Café Latte",
+          label: "Café especial",
+          summary:
+            "",
+          description: ``,
+          images: [
+            "../assets/Cafe/capuccino.png",
+          ],
+          price: 6500,
+        },
+        {
+          name: "Capuccino",
+          label: "Café especial",
+          summary:
+            "",
+          description: ``,
+          images: [
+            "../assets/Cafe/capuccino.png",
+          ],
+          price: 7500,
+        },
+        {
+          name: "Mocaccino",
+          label: "Café especial",
+          summary:
+            "",
+          description: ``,
+          images: [
+            "../assets/Cafe/capuccino.png",
+          ],
+          price: 9000,
+        },
+        {
+          name: "Macciato",
+          label: "Café especial",
+          summary:
+            "",
+          description: ``,
+          images: [
+            "../assets/Cafe/capuccino.png",
+          ],
+          price: 5000,
+        },
+        {
+          name: "Capuccino Irlandes",
+          label: "Café especial",
+          summary:
+            "",
+          description: ``,
+          images: [
+            "../assets/Cafe/capuccino.png",
+          ],
+          price: 12000,
+        },
+        {
+          name: "Frappé de café",
+          label: "Café especial",
+          summary:
+            "",
+          description: ``,
+          images: [
+            "../assets/Cafe/frappe.png",
+          ],
+          price: 12000,
+        },
+        {
+          name: "Frappé de café con maracuyá",
+          label: "Café especial",
+          summary:
+            "",
+          description: ``,
+          images: [
+            "../assets/Cafe/frappe.png",
+          ],
+          price: 14000,
+        },
+      ],
     },
     {
       name: "Cócteles",
@@ -388,7 +488,7 @@ const data = {
           label: "Refrescante",
           summary: "Bebida refrescante a base de naranja, frutos rojos y soda.",
           description: `Bebida refrescante a base de frutos rojos, zumo de limón y soda.`,
-          images: [],
+          images: ["../assets/Refrescantes/Soda naranja.jpg",],
           price: 13000,
         },
         {
