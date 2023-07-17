@@ -1,10 +1,6 @@
 const data = {
   categories: [
     {
-      name: "Recomendados",
-      products: [],
-    },
-    {
       name: "Tapas",
       products: [
         {
@@ -20,6 +16,7 @@ const data = {
             "../assets/Comida/Los tres mosqueteros.jpg",
           ],
           price: 22500,
+          recommended: true,
         },
         {
           name: "Burrata",
@@ -85,6 +82,7 @@ const data = {
             "../assets/Comida/Tabla serrana.jpg",
           ],
           price: 49900,
+          recommended: true,
         },
         {
           name: "Tabla de quesos",
@@ -128,6 +126,7 @@ const data = {
             "../assets/Reposteria/macaron 1.png",
           ],
           price: 6600,
+          recommended: true,
         },
         {
           name: "Bun de avellana",
@@ -247,6 +246,7 @@ const data = {
           description: `El espresso americano es una obra maestra que combina la intensidad concentrada del espresso con una suave y refrescante infusión de agua caliente. Cada sorbo es una experiencia equilibrada, donde el sabor rico y profundo del espresso se despliega en una cascada de sabores sutiles y seductores.`,
           images: ["../assets/Cafe/espresso.png"],
           price: 5000,
+          recommended: true,
         },
         {
           name: "Café Latte",
@@ -265,6 +265,7 @@ const data = {
           description: `Este deleite italiano combina la intensidad del espresso con la suavidad seductora de la leche y la delicadeza de la espuma. Cada sorbo es un encuentro con la elegancia, donde los sabores se entrelazan en un equilibrio inigualable. Deleita tus sentidos con la rica profundidad del café, acariciada por la dulzura cremosa de la leche y coronada por una espuma ligera y esponjosa.`,
           images: ["../assets/Cafe/capuccino.png"],
           price: 7500,
+          recommended: true,
         },
         {
           name: "Mocaccino",
@@ -319,6 +320,7 @@ const data = {
           description: `Cada goteo de agua caliente a través del filtro de alta calidad revela los sabores más sutiles y complejos de los granos de café, brindándote una experiencia de degustación excepcional. Disfruta de la nitidez y la suavidad de cada sorbo mientras te sumerges en un universo de aromas cautivadores. La Chemex es el secreto mejor guardado de los amantes del café, una obra maestra que te transporta a un mundo de sabor y refinamiento.`,
           images: ["../assets/Cafe/chemex.png"],
           price: 15000,
+          recommended: true,
         },
         {
           name: "Prensa francesa x3 tazas",
@@ -328,6 +330,7 @@ const data = {
           description: `Esta elegante y poderosa herramienta transforma tu rutina matutina en un ritual de sabores y aromas intensos. Cada prensado cuidadoso libera los aceites esenciales y los sabores robustos de los granos de café, creando una taza llena de carácter y cuerpo.`,
           images: ["../assets/Cafe/prensa.png"],
           price: 15000,
+          recommended: true,
         },
         {
           name: "V60 x3 tazas",
@@ -337,6 +340,7 @@ const data = {
           description: `Esta sofisticada cafetera de cono te transporta a un mundo de sabores refinados y extracciones precisas. Cada grano de café se sumerge en agua caliente, goteando a través del filtro en forma de V, liberando una explosión de sabores sutiles y complejos. Disfruta de la claridad y la transparencia en cada sorbo, mientras te deleitas con la taza perfectamente equilibrada. La V60 es el secreto de los conocedores del café, una herramienta que destaca la singularidad de cada grano y permite una experiencia de degustación única.`,
           images: ["../assets/Cafe/v60.png"],
           price: 15000,
+          recommended: true,
         },
       ],
     },
@@ -354,6 +358,7 @@ const data = {
             "../assets/Cocteles/Madame petite.jpg",
           ],
           price: 31000,
+          recommended: true,
         },
         {
           name: "Je ne t'aime plus",
@@ -364,6 +369,7 @@ const data = {
           coco y zumo de limón.`,
           images: ["../assets/Cocteles/Je ne taime plus.jpg"],
           price: 25500,
+          recommended: true,
         },
         {
           name: "Moulin Rouge",
@@ -372,6 +378,7 @@ const data = {
           description: `Ginebra, frutos rojos, triple sec y zumo de limón.`,
           images: ["../assets/Cocteles/Moulin rouge.jpg"],
           price: 33000,
+          recommended: true,
         },
         {
           name: "Gran Madame",
@@ -380,6 +387,7 @@ const data = {
           description: `Lulo, martini blanco, ginebra y agua tónica.`,
           images: ["../assets/Cocteles/Gran Madame.jpg"],
           price: 40000,
+          recommended: true,
         },
         {
           name: "La revolución",
@@ -482,6 +490,7 @@ const data = {
           description: `Bebida refrescante a base de shrub de mango, zumo de limón y soda.`,
           images: ["../assets/Refrescantes/Soda mango.png"],
           price: 13000,
+          recommended: true,
         },
         {
           name: "Soda de maracuyá",
@@ -491,6 +500,7 @@ const data = {
           description: `Bebida refrescante a base de shrub de maracuyá, zumo de limón y soda.`,
           images: ["../assets/Refrescantes/Soda maracuya.png"],
           price: 13000,
+          recommended: true,
         },
         {
           name: "Soda naranja y frutos rojos",
@@ -499,6 +509,7 @@ const data = {
           description: `Bebida refrescante a base de frutos rojos, zumo de limón y soda.`,
           images: ["../assets/Refrescantes/Soda naranja.jpg"],
           price: 13000,
+          recommended: true,
         },
         {
           name: "Frappé de café",
@@ -508,6 +519,7 @@ const data = {
           description: `Refresca tus sentidos con nuestro frappé de café, una explosión de sabor y frescura en cada sorbo. Este elixir helado combina la intensidad del café con el toque dulce y refrescante de hielo triturado, creando una experiencia que te transporta a un paraíso veraniego. Cada sorbo es una aventura de texturas, donde la suavidad seductora del café se entrelaza con la frescura del hielo, envolviendo tu paladar en una sinfonía de sabores deliciosos.`,
           images: ["../assets/Cafe/frappe.png"],
           price: 12000,
+          recommended: true,
         },
         {
           name: "Frappé de café con maracuyá",
@@ -517,6 +529,7 @@ const data = {
           description: `Este deleite helado fusiona la intensidad del café con la exótica frescura del maracuyá, creando una explosión de sabores en cada sorbo. El café se mezcla armoniosamente con la dulzura tropical y el toque cítrico del maracuyá, transportándote a playas paradisíacas con cada sorbo refrescante.`,
           images: ["../assets/Cafe/frappe.png"],
           price: 14000,
+          recommended: true,
         },
         {
           name: "Cerveza Corona",

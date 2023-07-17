@@ -20,7 +20,9 @@ function App() {
   }, []);
 
   function isCategorySelected(category) {
-    return category.name === selectedCategory.name;
+    if (category) {
+      return category.name === selectedCategory.name;
+    }
   }
 
   return (

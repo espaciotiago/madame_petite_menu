@@ -13,13 +13,38 @@ class AppViewModel {
             prod.summary,
             prod.description,
             prod.images,
-            prod.price
+            prod.price,
+            prod.recommended
           )
       );
       return new Category(cat.name, products);
     });
-    return categories;
+    let cats = [this.getRecommendedCategory()].concat(categories);
+    return cats;
   };
+
+  getRecommendedCategory() {
+    var products = [];
+    const categories = data.categories;
+    categories.forEach((cat) => {
+      const productsOfCat = cat.products;
+      productsOfCat.forEach((prod) => {
+        if (prod.recommended) {
+          let productToAdd = new Product(
+            prod.name,
+            prod.label,
+            prod.summary,
+            prod.description,
+            prod.images,
+            prod.price,
+            prod.recommended
+          );
+          products.push(productToAdd);
+        }
+      });
+    });
+    return new Category("Recomendados", products);
+  }
 }
 
 export default new AppViewModel();
