@@ -180,7 +180,7 @@ const data = {
           name: "Tartaleta de chocolate",
           label: "De la casa",
           summary:
-            "El chocolate oscuro y seductor se derrite en tu boca, liberando su sabor profundo y sofisticado. Nuestro relleno de chocolate es una sinfonía de sabores intensos y suavidad irresistible.",
+            "El chocolate oscuro y seductor se derrite en tu boca, liberando su sabor profundo y sofisticado.",
           description: `Prepárate para sumergirte en una experiencia de chocolate divina con nuestra tartaleta artesanal de chocolate. Cada bocado es un encuentro con la perfección, donde el cacao de alta calidad se combina con una masa crujiente y delicada. Utilizamos los ingredientes más selectos para crear una experiencia indulgente y única. El chocolate oscuro y seductor se derrite en tu boca, liberando su sabor profundo y sofisticado. Nuestro relleno de chocolate es una sinfonía de sabores intensos y suavidad irresistible. Cada tartaleta es cuidadosamente preparada por nuestros expertos pasteleros, quienes emplean su habilidad y pasión para garantizar un resultado sublime. Desde la selección de los mejores granos de cacao hasta la meticulosa elaboración, cada paso se realiza con amor y dedicación para ofrecerte una tartaleta que te hará sucumbir al placer del chocolate. Sumérgete en esta delicia tentadora y descubre la magia de la tartaleta de chocolate que despierta todos tus sentidos.`,
           images: [
             "../assets/Reposteria/tartaleta chocolate.png",
@@ -192,7 +192,7 @@ const data = {
           name: "Mini tartaleta de chocolate",
           label: "De la casa",
           summary:
-            "El chocolate oscuro y seductor se derrite en tu boca, liberando su sabor profundo y sofisticado. Nuestro relleno de chocolate es una sinfonía de sabores intensos y suavidad irresistible.",
+            "El chocolate oscuro y seductor se derrite en tu boca, liberando su sabor profundo y sofisticado.",
           description: `Prepárate para sumergirte en una experiencia de chocolate divina con nuestra tartaleta artesanal de chocolate. Cada bocado es un encuentro con la perfección, donde el cacao de alta calidad se combina con una masa crujiente y delicada. Utilizamos los ingredientes más selectos para crear una experiencia indulgente y única. El chocolate oscuro y seductor se derrite en tu boca, liberando su sabor profundo y sofisticado. Nuestro relleno de chocolate es una sinfonía de sabores intensos y suavidad irresistible. Cada tartaleta es cuidadosamente preparada por nuestros expertos pasteleros, quienes emplean su habilidad y pasión para garantizar un resultado sublime. Desde la selección de los mejores granos de cacao hasta la meticulosa elaboración, cada paso se realiza con amor y dedicación para ofrecerte una tartaleta que te hará sucumbir al placer del chocolate. Sumérgete en esta delicia tentadora y descubre la magia de la tartaleta de chocolate que despierta todos tus sentidos.`,
           images: [
             "../assets/Reposteria/tartaleta chocolate.png",
@@ -204,7 +204,7 @@ const data = {
           name: "Tartaleta de limón",
           label: "De la casa",
           summary:
-            "Nuestra masa crujiente se fusiona perfectamente con el relleno de limón, una combinación equilibrada entre lo dulce y lo ácido.",
+            "Una crujiente fusión perfectamente equilibrada entre lo dulce y lo ácido.",
           description: `Cada bocado es una explosión de sabor cítrico y refrescante que te transportará a un jardín de limoneros en plena floración. Utilizamos los limones más jugosos y suculentos para garantizar un sabor auténtico y vibrante en cada tartaleta. Nuestra masa crujiente se fusiona perfectamente con el relleno de limón, una combinación equilibrada entre lo dulce y lo ácido. Cada tartaleta es preparada con dedicación y cuidado, utilizando técnicas artesanales que resaltan la frescura y la intensidad del limón. Disfruta de la experiencia de saborear esta delicia ligera y refrescante, perfecta para los amantes de los sabores cítricos. Deleita tus sentidos con una tartaleta de limón que despierta el paladar y te transporta a un mundo lleno de frescura y alegría. ¡Permítete disfrutar de esta maravillosa combinación de sabores en cada bocado de nuestra tartaleta de limón!`,
           images: [
             "../assets/Reposteria/tartaleta limon.png",
@@ -216,7 +216,7 @@ const data = {
           name: "Mini tartaleta de limón",
           label: "De la casa",
           summary:
-            "Nuestra masa crujiente se fusiona perfectamente con el relleno de limón, una combinación equilibrada entre lo dulce y lo ácido. ",
+            "Una crujiente fusión perfectamente equilibrada entre lo dulce y lo ácido.",
           description: `Cada bocado es una explosión de sabor cítrico y refrescante que te transportará a un jardín de limoneros en plena floración. Utilizamos los limones más jugosos y suculentos para garantizar un sabor auténtico y vibrante en cada tartaleta. Nuestra masa crujiente se fusiona perfectamente con el relleno de limón, una combinación equilibrada entre lo dulce y lo ácido. Cada tartaleta es preparada con dedicación y cuidado, utilizando técnicas artesanales que resaltan la frescura y la intensidad del limón. Disfruta de la experiencia de saborear esta delicia ligera y refrescante, perfecta para los amantes de los sabores cítricos. Deleita tus sentidos con una tartaleta de limón que despierta el paladar y te transporta a un mundo lleno de frescura y alegría. ¡Permítete disfrutar de esta maravillosa combinación de sabores en cada bocado de nuestra tartaleta de limón!`,
           images: [
             "../assets/Reposteria/tartaleta limon.png",
@@ -488,7 +488,7 @@ const data = {
           summary:
             "Bebida refrescante a base de shrub de mango, zumo de limón y soda.",
           description: `Bebida refrescante a base de shrub de mango, zumo de limón y soda.`,
-          images: ["../assets/Refrescantes/Soda mango.png"],
+          images: ["../assets/Refrescantes/Soda mango.jpg"],
           price: 13000,
           recommended: true,
         },
@@ -498,7 +498,7 @@ const data = {
           summary:
             "Bebida refrescante a base de shrub de maracuyá, zumo de limón y soda.",
           description: `Bebida refrescante a base de shrub de maracuyá, zumo de limón y soda.`,
-          images: ["../assets/Refrescantes/Soda maracuya.png"],
+          images: ["../assets/Refrescantes/Soda maracuya.jpg"],
           price: 13000,
           recommended: true,
         },
@@ -517,7 +517,7 @@ const data = {
           summary:
             "Refresca tus sentidos con nuestro frappé de café, una explosión de sabor y frescura en cada sorbo.",
           description: `Refresca tus sentidos con nuestro frappé de café, una explosión de sabor y frescura en cada sorbo. Este elixir helado combina la intensidad del café con el toque dulce y refrescante de hielo triturado, creando una experiencia que te transporta a un paraíso veraniego. Cada sorbo es una aventura de texturas, donde la suavidad seductora del café se entrelaza con la frescura del hielo, envolviendo tu paladar en una sinfonía de sabores deliciosos.`,
-          images: ["../assets/Cafe/frappe.png"],
+          images: ["../assets/Cafe/frappe.jpg"],
           price: 12000,
           recommended: true,
         },
@@ -527,7 +527,7 @@ const data = {
           summary:
             "Este deleite helado fusiona la intensidad del café con la exótica frescura del maracuyá, creando una explosión de sabores en cada sorbo.",
           description: `Este deleite helado fusiona la intensidad del café con la exótica frescura del maracuyá, creando una explosión de sabores en cada sorbo. El café se mezcla armoniosamente con la dulzura tropical y el toque cítrico del maracuyá, transportándote a playas paradisíacas con cada sorbo refrescante.`,
-          images: ["../assets/Cafe/frappe.png"],
+          images: ["../assets/Cafe/frappe.jpg"],
           price: 14000,
           recommended: true,
         },
@@ -563,7 +563,7 @@ const data = {
           label: "Refrescante",
           summary: "",
           description: ``,
-          images: ["../assets/Refrescantes/Bretaña.png"],
+          images: ["../assets/Refrescantes/Bretana.png"],
           price: 6000,
         },
         {
